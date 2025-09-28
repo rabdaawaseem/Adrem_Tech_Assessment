@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="assets/banner.png" alt="E-Commerce Checkout Automation Banner" width="100%" />
+  <img src="E2E_Tricentis_Checkout_Automation/banner.png" alt="E-Commerce Checkout Automation Banner" width="100%" />
 </p>
 
 <!-- Badges -->
