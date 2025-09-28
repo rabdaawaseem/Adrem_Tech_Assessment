@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://via.placeholder.com/1200x250.png?text=🚀+E-Commerce+Checkout+Automation+Framework" alt="E-Commerce Checkout Automation Banner"/>
+  <img src="assets/banner.png" alt="E-Commerce Checkout Automation Banner" width="100%" />
 </p>
 
 <!-- Badges -->
