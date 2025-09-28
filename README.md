@@ -17,9 +17,9 @@
 #  End-to-End E-Commerce Checkout Automation Framework  
 🛒 **End-to-End Checkout Automation for Tricentis Demo Web Shop**
 
-This project implements a robust, maintainable, and highly readable **end-to-end test checkout automation solution** for the **Tricentis Demo Web Shop checkout process** using **Selenium WebDriver** with **Python**.
+This project implements a robust, maintainable and highly readable **end-to-end test checkout automation solution** for the **Tricentis Demo Web Shop checkout process** using **Selenium WebDriver** with **Python**.
 
-It follows **Page Object Model (POM)** design pattern for maintainibility and reusibility, incorporates **explicit waits** for dynamic elements, and includes  **logging, assertions** and **error handling** fo robust execution.
+It follows **Page Object Model (POM)** design pattern for maintainibility and reusibility, incorporates **explicit waits** for dynamic elements and includes  **logging, assertions** and **error handling** fo robust execution.
 
 ---
 
@@ -35,15 +35,15 @@ It follows **Page Object Model (POM)** design pattern for maintainibility and re
 
 ## 📊 Quality & Reporting
 
-- ✅ Allure HTML Reports with Screenshots  
-- ✅ Python Logging for detailed execution traces  
-- ✅ Assertions for critical checkpoints  
+- Allure HTML Reports with Screenshots  
+- Python Logging for detailed execution traces  
+- Assertions for critical checkpoints  
 
 ---
 
 ## ✨ Project Overview & Architecture
 
-This framework is built on the **Page Object Model (POM)** design pattern, ensuring **maintainability, readability, and reusability**.  
+This framework is built on the **Page Object Model (POM)** design pattern, ensuring **maintainability, readability and reusability**.  
 
 **Key Features:**
 - 🏗️ **Page Object Model (POM):** All web interactions encapsulated in `/pages`  
@@ -63,7 +63,7 @@ This framework is built on the **Page Object Model (POM)** design pattern, ensur
 3. **Search & Add Product** – Add multiple products from `test_data.json`  
 4. **Cart Validation** – Validate items + total price  
 5. **Checkout Initiation** – Start checkout after ToS agreement  
-6. **Address & Methods** – Fill in billing, shipping, and payment  
+6. **Address & Methods** – Fill in billing, shipping and payment  
 7. **Order Submission** – Confirm and submit order  
 8. **Confirmation** – Asserts Order Confirmation Success Message  
 
@@ -139,7 +139,7 @@ allure serve reports/allure-results
 ```plaintext
 ADREM_TECH_ASSESSMENT/
 ├── E2E_Tricentis_Checkout_Automation/
-│   ├── pages/
+│   ├── pages/ 
 │   │   ├── __init__.py
 │   │   ├── tricentis_cart_summary_page.py
 │   │   ├── tricentis_checkout_page.py
