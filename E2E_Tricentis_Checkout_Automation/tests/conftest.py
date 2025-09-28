@@ -17,7 +17,7 @@ def test_data():
 @pytest.fixture(scope="class")
 def driver():
     options = Options()
-    options.add_argument("--headless")  # UnComment for invisible browser (headless browser)
+    #options.add_argument("--headless")  # UnComment for invisible browser (headless browser)
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
     driver.maximize_window()
