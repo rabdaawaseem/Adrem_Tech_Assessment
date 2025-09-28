@@ -1,0 +1,76 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\MahamAatir\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+INFO     tests.main:main.py:41 Navigating to login page
+INFO     pages.tricentis_login_page:tricentis_login_page.py:26 Entering email: testingenv@gmail.com
+INFO     pages.tricentis_login_page:tricentis_login_page.py:28 Entering password
+INFO     pages.tricentis_login_page:tricentis_login_page.py:30 Clicking login button
+INFO     tests.main:main.py:44 Login successful
+INFO     tests.main:main.py:66 Item selected from homepage
+INFO     tests.main:main.py:69 Recipient information entered
+INFO     tests.main:main.py:73 Item added to cart successfully
+INFO     tests.main:main.py:95 Processing product: 14.1-inch Laptop
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:44 Searching for product: 14.1-inch Laptop
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:32 Navigating to homepage
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:37 Homepage loaded successfully
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:54 Selected 14.1-inch Laptop from autocomplete
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:66 Navigated to product page for: 14.1-inch Laptop
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:82 Scrolling to view the page
+INFO     tests.main:main.py:98 Scrolling to Add to Cart button for product: 14.1-inch Laptop
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:90 Attempting to add product to cart with XPath: //input[@id='add-to-cart-button-31']
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:95 Successfully clicked Add to Cart button
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:97 Product added to cart successfully
+INFO     tests.main:main.py:100 Product '14.1-inch Laptop' added to cart
+INFO     tests.main:main.py:95 Processing product: Computing and Internet
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:44 Searching for product: Computing and Internet
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:32 Navigating to homepage
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:37 Homepage loaded successfully
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:54 Selected Computing and Internet from autocomplete
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:66 Navigated to product page for: Computing and Internet
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:82 Scrolling to view the page
+INFO     tests.main:main.py:98 Scrolling to Add to Cart button for product: Computing and Internet
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:90 Attempting to add product to cart with XPath: //input[@id='add-to-cart-button-13']
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:95 Successfully clicked Add to Cart button
+INFO     pages.tricentis_search_add_multiple_products_page:tricentis_search_add_multiple_products_page.py:97 Product added to cart successfully
+INFO     tests.main:main.py:100 Product 'Computing and Internet' added to cart
+INFO     tests.main:main.py:104 All products processed successfully
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:26 Navigating to cart page
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:30 Cart icon clicked
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:32 Cart page loaded successfully
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:35 Getting cart item count
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:40 Extracting cart details
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:50 Found item: $25 Virtual Gift Card, Qty: 1, Price: $25.0, Total: $25.0
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:50 Found item: 14.1-inch Laptop, Qty: 1, Price: $1590.0, Total: $1590.0
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:50 Found item: Computing and Internet, Qty: 1, Price: $10.0, Total: $10.0
+INFO     tests.main:main.py:123 Getting cart details
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:40 Extracting cart details
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:50 Found item: $25 Virtual Gift Card, Qty: 1, Price: $25.0, Total: $25.0
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:50 Found item: 14.1-inch Laptop, Qty: 1, Price: $1590.0, Total: $1590.0
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:50 Found item: Computing and Internet, Qty: 1, Price: $10.0, Total: $10.0
+INFO     pages.tricentis_cart_sumary_page:tricentis_cart_sumary_page.py:76 Total price of items in cart: $1625.0
+INFO     tests.main:main.py:125 Cart validated successfully
+INFO     pages.tricentis_checkout_page:tricentis_checkout_page.py:17 Agreeing to terms of service
+INFO     tests.main:main.py:142 Agreed to terms of service
+INFO     pages.tricentis_checkout_page:tricentis_checkout_page.py:21 Proceed to checkout
+INFO     tests.main:main.py:144 Proceeded to checkout
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:26 Entering billing address details
+ERROR    pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:93 Entering billing address details directly as a New User
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:124 Billing address details entered successfully
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:127 Entering Shipping Adress Details 
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:130 Shipping address details entered successfully
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:131 Selecting Shipping Method Details
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:136 Shipping method selected successfully
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:137 Selecting Payment Method Details
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:147 Payment method selected successfully
+INFO     pages.tricentis_shipping_billing_address_page:tricentis_shipping_billing_address_page.py:148 Shipping and Billing Address Details entered Successfully ! 
+INFO     tests.main:main.py:162 Successfully entered billing address
+INFO     pages.tricentis_submit_order_page:tricentis_submit_order_page.py:20 Submitting Order
+INFO     pages.tricentis_submit_order_page:tricentis_submit_order_page.py:22 Clicking confirm button to place the order
+INFO     root:tricentis_submit_order_page.py:24 Confirm button clicked. Waiting for Thank You page to load...
+INFO     pages.tricentis_order_completion_page:tricentis_order_completion_page.py:18 Validating order completion page
+INFO     pages.tricentis_order_completion_page:tricentis_order_completion_page.py:24 Success message found: Your order has been successfully processed!
+INFO     pages.tricentis_order_completion_page:tricentis_order_completion_page.py:33 Extracted order number: 2109741
+INFO     pages.tricentis_order_completion_page:tricentis_order_completion_page.py:37 Navigated to order details page for order number: 2109741
+INFO     tests.main:main.py:194 Order Confirmation Validated
+INFO     tests.main:main.py:195 Test Completed Successfully !
