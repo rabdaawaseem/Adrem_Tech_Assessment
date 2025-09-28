@@ -6,8 +6,6 @@ __pycache__
 *.pyc
 *.pyo
 *.pyd
-
-
 myenv/
 .pytest_cache/
 .idea/
