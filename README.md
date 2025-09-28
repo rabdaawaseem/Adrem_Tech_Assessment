@@ -170,7 +170,7 @@ ADREM_TECH_ASSESSMENT/
 ├── README.md
 ├── requirements.txt
 ```
-## Assumptions & Considerations 
+## 📌 Assumptions & Considerations 
 - **Credentials :** Assumes the user in `test_data.json` is **already registered** with newly created credentials on Demo Web Shop manually.
 - **Data Integrity :** Assumes product names and associated IDs/XPaths in `test_data.json` are current and accurate for SUT. 
 
